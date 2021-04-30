@@ -32,8 +32,6 @@ public class Recv {
 				doWork(message);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
-			} finally {
-				System.out.println(Done);
 			}
 		};
 		channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
