@@ -15,6 +15,7 @@ Steps to follow:
 * Create containers
 * Install prerequisites (Java, RabbitMQ, Java client library)
 * Create (admin) user account on the host running the server (here, the publisher)
+* (If needed) update source code to fit the newly-created account
 * Update consumer source code with publisher's IP address
 * Push source code to containers
 * Compile and run
